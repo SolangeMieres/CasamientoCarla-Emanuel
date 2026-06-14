@@ -147,7 +147,7 @@
     overflow:hidden;
     padding: 64px 24px;
     background:
-      url('images/foto-1.jpg') center 30% / cover no-repeat,
+      url('images/foto-1.jpg') center 38% / cover no-repeat,
       linear-gradient(180deg, var(--rose-soft) 0%, var(--cream) 70%);
   }
 
@@ -408,15 +408,6 @@
     aspect-ratio: 1 / 1;
     background-size: cover;
     background-position: center;
-    display:flex;
-    align-items:flex-end;
-    padding: 12px;
-  }
-  .gallery-item .ph-label{
-    font-family: var(--font-display);
-    font-style: italic;
-    font-size: 14px;
-    color: rgba(61,51,46,0.45);
   }
   .gallery-item.feature{
     grid-column: span 2;
@@ -651,7 +642,7 @@
       <div class="location-info">
         <p class="eyebrow">Sábado 26 de septiembre de 2026</p>
         <p class="place-name">Quinta Entre Nosotros</p>
-        <p class="place-time">Las Glicinas II, Luján, Buenos Aires · Desde las [HH:HS]</p>
+        <p class="place-time">Las Glicinas II, Luján, Buenos Aires · Desde las 11:30 hs</p>
         <a class="btn btn-primary" href="https://maps.app.goo.gl/qmqvbYW5E8ANmxLx8" target="_blank" rel="noopener">Cómo llegar</a>
       </div>
       <iframe
@@ -670,7 +661,7 @@
   <div class="wrap">
     <div class="section-head reveal">
       <p class="eyebrow">Para tener en cuenta</p>
-      <h2 class="section-title">Cómo venir</h2>
+      <h2 class="section-title">¿Cómo venir?</h2>
     </div>
 
     <div class="info-grid reveal">
@@ -696,10 +687,10 @@
 
       <div class="info-card">
         <svg class="sprig" viewBox="0 0 120 160" aria-hidden="true"><use href="#sprig-icon"/></svg>
-        <h3>Cómo volver</h3>
-        <p>Como estamos un poco alejados de la ciudad, te recomendamos coordinar el regreso con tiempo: compartir auto con otros invitados o pedir un Cabify con anticipación.</p>
-        <button class="copy-code-btn" type="button" data-code="solangem674" data-default="Copiar código de descuento Cabify" data-copied="¡Copiado! Pegalo en la app">Copiar código de descuento Cabify</button>
-      </div>
+        <h3>¿Cómo volver?</h3>
+        <p>Como estamos un poco alejados de la ciudad, te recomendamos coordinar el regreso con tiempo: compartir auto con otros invitados o pedir un Cabify con anticipación. </p>
+        <button class="copy-code-btn" type="button" data-code="solangem674" data-default="Copiar código de descuento Cabify" data-copied="¡Copiado! Pegalo en la app">Copiar código de descuento</button>
+        <p class="album-note">El código es para un viaje de ida o vuelta, válido si es tu primera vez.</p>
     </div>
   </div>
 </section>
@@ -710,17 +701,17 @@
     <div class="section-head reveal">
       <p class="eyebrow">Nosotros</p>
       <h2 class="section-title">Algunos momentos</h2>
-      <p class="section-text">Antes del gran día nos vamos a hacer una sesión de fotos — estas van a actualizarse con esas imágenes.</p>
+      <p class="section-text">Antes del gran día iremos actualizando estas imágenes.</p>
     </div>
 
     <div class="gallery-grid reveal">
-      <div class="gallery-item feature ph-1"><span class="ph-label">Foto 1</span></div>
-      <div class="gallery-item ph-2"><span class="ph-label">Foto 2</span></div>
-      <div class="gallery-item ph-3"><span class="ph-label">Foto 3</span></div>
-      <div class="gallery-item ph-4"><span class="ph-label">Foto 4</span></div>
-      <div class="gallery-item ph-5"><span class="ph-label">Foto 5</span></div>
-      <div class="gallery-item ph-6"><span class="ph-label">Foto 6</span></div>
-      <div class="gallery-item ph-7"><span class="ph-label">Foto 7</span></div>
+      <div class="gallery-item feature ph-1"></div>
+      <div class="gallery-item ph-2"></div>
+      <div class="gallery-item ph-3"></div>
+      <div class="gallery-item ph-4"></div>
+      <div class="gallery-item ph-5"></div>
+      <div class="gallery-item ph-6"></div>
+      <div class="gallery-item ph-7"></div>
     </div>
   </div>
 </section>
@@ -744,7 +735,7 @@
     <div class="section-head reveal">
       <p class="eyebrow">Confirmación</p>
       <h2 class="section-title">¿Vas a venir?</h2>
-      <p class="section-text">Contanos antes del [fecha límite] para poder organizar todo con tiempo.</p>
+      <p class="section-text">Contanos antes del 12 de Septiembre para poder organizar todo con tiempo.</p>
     </div>
 
     <form class="rsvp-form reveal" id="rsvpForm">
@@ -758,11 +749,11 @@
         <div class="radio-row">
           <label class="radio-option">
             <input type="radio" name="asistencia" value="si" checked>
-            Sí, ¡con muchas ganas!
+            Sí, ¡allí estaré con muchas ganas!
           </label>
           <label class="radio-option">
             <input type="radio" name="asistencia" value="no">
-            No voy a poder
+            No voy a poder, ¡perdón!
           </label>
         </div>
       </div>
@@ -802,7 +793,7 @@
       </details>
       <details class="faq-item">
         <summary>¿A qué hora empieza la ceremonia?</summary>
-        <p>La ceremonia y la fiesta son en el mismo lugar, a partir de las [HH:HS]. Te recomendamos llegar un poco antes.</p>
+        <p>La ceremonia y la fiesta son en el mismo lugar, a partir de las 11:30 hs. Te recomendamos llegar un poco antes.</p>
       </details>
       <details class="faq-item">
         <summary>¿Hay pileta y cancha de fútbol?</summary>
@@ -838,7 +829,7 @@
 <script>
   // ---------- Countdown ----------
   // TODO: ajustar fecha/hora real del casamiento
-  const weddingDate = new Date('2026-09-26T18:00:00-03:00').getTime();
+  const weddingDate = new Date('2026-09-26T11:30:00-03:00').getTime();
 
   function updateCountdown(){
     const now = Date.now();
